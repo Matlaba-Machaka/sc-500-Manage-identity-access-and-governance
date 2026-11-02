@@ -1,7 +1,7 @@
 # Grants User.Read.All to the VM Managed Identity
-$TenantID = "c64cd139-e40e-4967-bc0b-1a72021890af"
+$TenantID = "<tenant_id>"
 $VM_ObjectID = "0fc28319-1584-4cf7-bad4-3d30e6dd4eec"
-$GraphAppId = "00000003-0000-0000-c000-000000000000" # Fixed Graph API App ID
+$GraphAppId = "00000003-0000-0000-c000-000000000000" 
 $PermissionName = "User.Read.All"
 
 $GraphServicePrincipal = Get-AzADServicePrincipal -Filter "appId eq '$GraphAppId'"
