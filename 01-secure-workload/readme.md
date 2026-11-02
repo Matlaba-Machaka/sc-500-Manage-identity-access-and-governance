@@ -56,15 +56,20 @@ print(response.json())
 Here is the visual proof that the lab was successfully built and tested in Azure.
 
 ### 🔐 1. Key Vault & Identity Setup
-*   **Secret Stored Successfully:** `![Secrets](./screenshots/01-keyvault-secrets.png)`
-*   **Encryption Key Created:** `![Keys](./screenshots/02-keyvault-keys.png)`
-*   **VM Managed Identity Turned On:** `![VM Identity](./screenshots/03-vm-managed-identity.png)`
-*   **VM Granted Access to Key Vault:** `![Key Vault RBAC](./screenshots/04-keyvault-rbac.png)`
+*   **Secret Stored Successfully:** <img width="1910" height="722" alt="image" src="https://github.com/user-attachments/assets/ddfb3873-6128-489f-82cd-ceda73ac10ba" />
+
+*   **Encryption Key Created:** <img width="1910" height="682" alt="image" src="https://github.com/user-attachments/assets/2e926044-17b5-42b2-921f-f6fdd07989a2" />
+
+*   **VM Managed Identity Turned On:** <img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/76bdbba5-039f-4f97-b24c-1fd68549fe8d" />
+
+*   **VM Granted Access to Key Vault:** <img width="1277" height="1117" alt="image" src="https://github.com/user-attachments/assets/dba25f5c-475a-4dba-a89c-02d0fb816d47" />
+
 
 ### 🛑 2. Network Hardening & Governance
-*   **Key Vault Firewall Enabled:** `![Firewall](./screenshots/05-keyvault-firewall.png)`
-*   **Delete Attempt Blocked by Lock:** `![Resource Lock](./screenshots/06-resource-lock-error.png)`
-*   **Public IP Blocked by Azure Policy:** `![Azure Policy](./screenshots/07-azure-policy-denial.png)`
+*   **Key Vault Firewall Enabled:** <img width="1914" height="942" alt="Screenshot 2026-10-30 091027" src="https://github.com/user-attachments/assets/423f2280-4bd1-4a72-8fc9-dedf4ae55022" />
 
-### 🧪 3. Successful Code Output
-*   **Passwordless Script Execution Output:** `![Terminal Output](./screenshots/08-terminal-success.png)`
+*   **Delete Attempt Blocked by Lock:** <img width="1900" height="352" alt="image" src="https://github.com/user-attachments/assets/af562160-822d-419c-9d78-4c2712734f5d" />
+
+*   **Public IP Blocked by Azure Policy:** <img width="1902" height="481" alt="image" src="https://github.com/user-attachments/assets/f0f00c12-9f96-4dec-8b0e-a73293beb564" />
+
+
